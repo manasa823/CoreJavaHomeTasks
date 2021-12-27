@@ -1,9 +1,19 @@
 package powerConsumption;
 
-public class TV extends Appliances {
+public class TV implements Appliances {
 
-	public TV(int count, int powerConsumed) {
-		super(count, powerConsumed);
+	private int power;
+
+	public TV(String condition, int power) {
+		
+		if(condition.equalsIgnoreCase("on"))
+			this.power = power;
+		if(condition.equalsIgnoreCase("off"))
+			this.power=0;
 	}
 
+	@Override
+	public int totalPowerConsumed() {
+		return power;
+	}
 }

@@ -1,9 +1,20 @@
 package powerConsumption;
 
-public class Fan extends Appliances {
+public class Fan implements Appliances {
+	
+	private int power;
 
-	public Fan(int count, int powerConsumed) {
-		super(count, powerConsumed);
+	public Fan(String condition, int power) {
+		
+		if(condition.equalsIgnoreCase("on"))
+			this.power = power;
+		if(condition.equalsIgnoreCase("off"))
+			this.power=0;
+	}
+
+	@Override
+	public int totalPowerConsumed() {
+		return power;
 	}
 
 }

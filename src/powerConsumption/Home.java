@@ -25,9 +25,9 @@ public class Home {
 
 		public static void main(String[] args) {
 			
-			Appliances f = new Fan(1,5);
-			Appliances t = new TV(3,1);
-			Appliances l = new Light(2,10);
+			Appliances f = new Fan("On",5);
+			Appliances t = new TV("Off",1);
+			Appliances l = new Light("On",10);
 			
 			System.out.println("Total Power consumed is: "+getTotalPower(f, t, l)+" units");
 			sortDevices(f, t, l);

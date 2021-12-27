@@ -1,17 +1,6 @@
 package powerConsumption;
 
-public class Appliances {
+public interface Appliances {
 
-	private int count;
-	private int powerConsumed;
-	
-	public Appliances(int count, int powerConsumed) {
-		super();
-		this.count = count;
-		this.powerConsumed = powerConsumed;
-	}
-	
-	public int totalPowerConsumed() {
-		return count*powerConsumed;
-	}
+	public abstract int totalPowerConsumed();
 }
