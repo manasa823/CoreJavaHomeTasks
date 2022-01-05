@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-21T20:59:40 IST" name="Default suite" finished-at="2021-12-21T20:59:43 IST" duration-ms="2734">
+    <groups>
+    </groups>
+    <test started-at="2021-12-21T20:59:40 IST" name="Default test" finished-at="2021-12-21T20:59:43 IST" duration-ms="2734">
+      <class name="Test.Task3">
+        <test-method signature="verifyBody()[pri:0, instance:Test.Task3@574b560f]" started-at="2021-12-21T20:59:40 IST" name="verifyBody" finished-at="2021-12-21T20:59:43 IST" duration-ms="2689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBody -->
+      </class> <!-- Test.Task3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
